@@ -32,7 +32,8 @@ public void enterDetails()
 	@When("^User selects Oneway radio$")
 public void SelectRadios()
 {
-		AbstractDefinations.driver.findElement(By.xpath("//input[@value='oneway']")).click();	
+		AbstractDefinations.driver.findElement(By.xpath("//input[@value='oneway']")).click();
+		System.out.println("bye");
 }
 	
 	
