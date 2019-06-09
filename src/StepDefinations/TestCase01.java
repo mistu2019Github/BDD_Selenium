@@ -33,7 +33,7 @@ public void enterDetails()
 public void SelectRadios()
 {
 		AbstractDefinations.driver.findElement(By.xpath("//input[@value='oneway']")).click();
-		System.out.println("bye");
+		System.out.println("Hi");
 }
 	
 	
